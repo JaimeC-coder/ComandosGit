@@ -77,11 +77,16 @@ ese archivo tienes que copiarlo en el github donde es dice generar una nueva lla
 3)copias la url que te dan con el comando
 -)git clone (la url que quires copiar)
 4)luego revisas donde lo descargaste y listo
-
 --clonar un repositorio desde un github distinto al tuyo y pasarlo a tu github
 1)primero busca el proyecto que quieres
 2)busca un boton que paresca ramas (en la parte superior del proyecto busca uno que diga ForK ) 
 3)lo precionas y solito se copia a tu github
+--eliminar un repositorio
+1)abro github 
+2)Selecciono el proyecto que quiero eliminar 
+3)me voy a settings
+4)voy a la parte de sona de peligro
+5)sigo los paso que pide 
 
 --------------------------------------------------------------------------------
 fin de esto
