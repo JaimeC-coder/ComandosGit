@@ -21,4 +21,16 @@
 -)git commit -m "el mensaje que quieras ponerle"
 --para regresar a un cambio anterior se hace con 
 -)git rm --cached "nombre del archivo"
-
+--para que git ignore siertos archivos se hace :
+1)se crea un archivo que tenga punto gitignore (.gitignore)
+2) en ese archivo escriba todo los documentos que quiera que no se se suban
+--para ver los cambios (los commit) guardados  sin contar los cambios 
+-) git log
+despues de mostrar los cambios le agregas el ctrl+v se guardan en una archivo
+con ctrl + c salgo
+--si quiero ver las especificacios de los commit se hace con el 
+-)git log --stat
+--para ver el commit que quieres regresar primero debes de seleccionarlo con  
+-)git log --oneline
+--luego para regresar los cambios se hace con
+-)git checkout (el codigo del cambio que quieres hacer (este sale al principio en amarillo))

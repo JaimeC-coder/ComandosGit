@@ -1,0 +1,5 @@
+# si quieres ignorar un archivo en específico,
+# puedes hacerlo con el comando escribiendo el nombre del archivo en especifiico 
+# mas su extecion pero si quieres que inore a todos los archivos que tengan la misma extecion 
+# solo debes de poner el nombre de la extecion. con un . osea :
+# .php
