@@ -45,8 +45,32 @@ pero tambien lo guarda en una rama temporal asi como se muestra entre el parente
 -)git merge (nombre de tu rama)
 --para eliminar una rama 
 -)git branch -d (nombre de la rama)
-<<<<<<< HEAD
-=======
 
-hola esta es la rama14
->>>>>>> rama1
+--------------------------------------------------------
+--unir git github con una llave
+1)se tiene que ir a ajustes de github y ir a la opcion de SSH add GPG Keys
+2)ingresas este comando en la terminal de git 
+ssh-keygen -t ed25519 -C "your_email@example.com"
+3)esto te va generar un codigo en el directorio ((/c/Users/HP/.ssh/))
+dentro de este hay un archivo que tiene terminacion .pub 
+ese archivo tienes que copiarlo en el github donde es dice generar una nueva llave SSH
+--crear un proyecto en github 
+1)abrir github 
+2)precionar el boton de new (es verde)
+3)en donde dice "repository name" se coloca en nombre que le quieras dar 
+4)en donde dice descripcion puedes poner una descripcion pero no es necesario
+5)luego se selecciona si quieres que sea publico o privado
+6)por ultimo es opcional poner el readme y las otras opciones que aparece
+7)para finalizar le das en creater repository
+8)te va a mandar a una nueva pestaña
+9)puedes escoger uno de los 2 paneles que tienes pero si 
+9.1)el primero es si lo quieres crear desde 0 (desde el git init)
+9.2)el segundo es si ya lo tienes creado los cambios y ya lo has iniciado->este se va a usuario
+10)se inserta la url que te da que esta en la 5ta linea de el primer panel o en la 1ra del segundo (osea el que tiene git remote add origin)
+11)
+
+
+
+
+
+
