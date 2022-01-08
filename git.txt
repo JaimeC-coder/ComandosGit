@@ -41,6 +41,10 @@ pero tambien lo guarda en una rama temporal asi como se muestra entre el parente
 -)git checkout (el nombre de la rama que quieres)
 --crear rama 
 -)git checkout -b (nombre de la rama)
+--combinar ramas 
+-)git merge (nombre de tu rama)
+--para eliminar una rama 
+-)git branch -d (nombre de la rama)
 <<<<<<< HEAD
 =======
 
