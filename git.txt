@@ -66,8 +66,11 @@ ese archivo tienes que copiarlo en el github donde es dice generar una nueva lla
 9)puedes escoger uno de los 2 paneles que tienes pero si 
 9.1)el primero es si lo quieres crear desde 0 (desde el git init)
 9.2)el segundo es si ya lo tienes creado los cambios y ya lo has iniciado->este se va a usuario
+9.2.1)debido a que se a escogido la segunda opcion se tiene que crear un archivo que sea el README.md
 10)se inserta la url que te da que esta en la 5ta linea de el primer panel o en la 1ra del segundo (osea el que tiene git remote add origin)
-11)
+11)luego de eso tenemos que hacer un git status y va a aparecer que falta un cambio lo guarmos con el commit
+--para subir los cambios se hace con 
+-)git push -u origin master
 
 
 
