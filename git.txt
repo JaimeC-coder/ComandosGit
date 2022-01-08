@@ -41,3 +41,8 @@ pero tambien lo guarda en una rama temporal asi como se muestra entre el parente
 -)git checkout (el nombre de la rama que quieres)
 --crear rama 
 -)git checkout -b (nombre de la rama)
+<<<<<<< HEAD
+=======
+
+hola esta es la rama14
+>>>>>>> rama1
