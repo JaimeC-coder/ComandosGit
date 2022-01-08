@@ -20,7 +20,5 @@
  (cuando se hace un commit se cierra todos los cambios que ya has echo con anterioridad) 
 -)git commit -m "el mensaje que quieras ponerle"
 --para regresar a un cambio anterior se hace con 
--)git rm --cacked "nombre del archivo"
+-)git rm --cached "nombre del archivo"
 
-
-hola putos
