@@ -15,4 +15,12 @@
 --para guardar los archivos antes de subir al repositoria se usa 
 -)git add "+ el nombre del archivo"
 --para guardar todos los archivos antes de subir al repositoria se usa 
--- git add .
+-)git add .
+--para un mensaje con los cambios que estes haciendo se hace con
+ (cuando se hace un commit se cierra todos los cambios que ya has echo con anterioridad) 
+-)git commit -m "el mensaje que quieras ponerle"
+--para regresar a un cambio anterior se hace con 
+-)git rm --cacked "nombre del archivo"
+
+
+hola putos
