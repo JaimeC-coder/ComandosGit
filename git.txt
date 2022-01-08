@@ -32,5 +32,14 @@ con ctrl + c salgo
 -)git log --stat
 --para ver el commit que quieres regresar primero debes de seleccionarlo con  
 -)git log --oneline
---luego para regresar los cambios se hace con
+--luego para regresar los cambios se hace con (ojo se elimina por completo 
+pero tambien lo guarda en una rama temporal asi como se muestra entre el parentesis al finalizar (te aparece el codigo que has seleccionado))
 -)git checkout (el codigo del cambio que quieres hacer (este sale al principio en amarillo))
+--para ver las ramas que tenga el proyecto se hace con 
+-)git branch
+--para cambiar de ramas se hace con 
+-)git checkout (el nombre de la rama que quieres)
+--crear rama 
+-)git checkout -b (nombre de la rama)
+
+hola esta es la rama14
