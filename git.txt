@@ -46,7 +46,7 @@ pero tambien lo guarda en una rama temporal asi como se muestra entre el parente
 --para eliminar una rama 
 -)git branch -d (nombre de la rama)
 
---------------------------------------------------------
+---------------------git y github-----------------------------------
 --unir git github con una llave
 1)se tiene que ir a ajustes de github y ir a la opcion de SSH add GPG Keys
 2)ingresas este comando en la terminal de git 
@@ -71,8 +71,20 @@ ese archivo tienes que copiarlo en el github donde es dice generar una nueva lla
 11)luego de eso tenemos que hacer un git status y va a aparecer que falta un cambio lo guarmos con el commit
 --para subir los cambios se hace con 
 -)git push -u origin master
+------------------------clonar un repositorio --------------------------------
+1) buscas el repositorio que quieres clonar 
+2)seleccionas en el voton verde que dice code
+3)copias la url que te dan con el comando
+-)git clone (la url que quires copiar)
+4)luego revisas donde lo descargaste y listo
 
+--clonar un repositorio desde un github distinto al tuyo y pasarlo a tu github
+1)primero busca el proyecto que quieres
+2)busca un boton que paresca ramas (en la parte superior del proyecto busca uno que diga ForK ) 
+3)lo precionas y solito se copia a tu github
 
+--------------------------------------------------------------------------------
+fin de esto
 
 
 
